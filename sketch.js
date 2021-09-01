@@ -81,7 +81,7 @@ class Mover {
 }
 
 
-var ball = new Array(2000);
+var ball = new Array(500);
 
 function setup() {
     createCanvas(windowWidth, windowHeight);    
