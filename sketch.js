@@ -94,6 +94,8 @@ function setup() {
 
 function draw() {  
     background(0);
+    textSize(32);
+    text('word', 10, 30);
     for (var i=0; i < ball.length; i++) {
         fill(random(10,55), random(100,255), random(220,255), random(255));
         ball[i].update();
